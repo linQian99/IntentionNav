@@ -11,14 +11,27 @@ The current release includes the collection stage only:
 
 Evaluation, model agents, paper drafts, generated data, logs, and archived baselines are intentionally not included here.
 
+## Data Download
+
+The scene collection follows the VLNTube scene assets:
+[william13077/VLNTube](https://github.com/william13077/VLNTube).
+
+Before running the collection pipeline, download the required scene data:
+
+| Dataset | Contents | Link |
+|---|---|---|
+| Envs | USD scene files | [Eyz/VLNVerse_scene](https://huggingface.co/datasets/Eyz/VLNVerse_scene) |
+| Room Meta | Scene metadata, collision maps, room layouts | [Eyz/SceneMeta](https://huggingface.co/datasets/Eyz/SceneMeta) |
+| Scene Graph | Object relationships | [Eyz/SceneSummary](https://huggingface.co/datasets/Eyz/SceneSummary) |
+
 ## Requirements
 
 - Isaac Sim 4.5.0
 - Python environment with Isaac Sim available, plus `numpy`, `Pillow`, `opencv-python`,
   `matplotlib`, and `pyquaternion`
 - External scene assets:
-  - `TataServices`: USD scenes
-  - `TaTaMeta/metadata_train`: `freemap.npy` and `room_region.json`
+  - `VLNVerse_scene`: USD scenes
+  - `SceneMeta/metadata_train`: `freemap.npy` and `room_region.json`
   - `SceneSummary/kujiale_scene_summary`: per-scene `object_dict.json`
 
 The scripts default to the local lab paths used during development. Override them
@@ -26,7 +39,7 @@ with environment variables when running elsewhere:
 
 ```bash
 export SCENE_SUMMARY=/path/to/kujiale_scene_summary
-export USD_ROOT=/path/to/TataServices
+export USD_ROOT=/path/to/VLNVerse_scene
 export METAROOT=/path/to/metadata_train
 export ISAACSIM_ROOT=/path/to/ISAACSIM_ROOT
 export WORK_DIR=/path/to/output/work_dirs
