@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+work_dirs/
+logs/
+batch_logs/
+parallel_logs/
+
+*.log
+*.tmp
+.DS_Store
