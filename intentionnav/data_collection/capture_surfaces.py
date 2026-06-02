@@ -14,7 +14,7 @@ import argparse
 import sys
 
 parser = argparse.ArgumentParser(description="Phase 1: Capture surface photos with Isaac Sim")
-parser.add_argument("--usd-root", required=True, help="Root dir with USD scenes (TataServices/)")
+parser.add_argument("--usd-root", required=True, help="Root dir with USD scenes (VLNVerse_scene/)")
 parser.add_argument("--metaroot", required=True, help="Root dir with metadata (freemap.npy, room_region.json)")
 parser.add_argument("--surface-targets-dir", required=True, help="Dir with surface_targets.json per scene")
 parser.add_argument("--scene-summary", default=None, help="kujiale_scene_summary dir; enables scene-graph enrichment of the manifest")

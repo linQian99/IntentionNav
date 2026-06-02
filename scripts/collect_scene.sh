@@ -6,7 +6,7 @@
 #
 # Override paths with env vars when needed:
 #   SCENE_SUMMARY=/path/to/kujiale_scene_summary
-#   USD_ROOT=/path/to/TataServices
+#   USD_ROOT=/path/to/VLNVerse_scene
 #   METAROOT=/path/to/metadata_train
 #   WORK_DIR=/path/to/output
 
@@ -21,8 +21,8 @@ if [ -z "$SCENE" ]; then
 fi
 
 SCENE_SUMMARY="${SCENE_SUMMARY:-/mnt/ssd0/Lin4T/datasets/vlntube/SceneSummary/kujiale_scene_summary}"
-USD_ROOT="${USD_ROOT:-/mnt/ssd0/Lin4T/datasets/vlntube/TataServices}"
-METAROOT="${METAROOT:-/mnt/ssd0/Lin4T/datasets/vlntube/TaTaMeta/metadata_train}"
+USD_ROOT="${USD_ROOT:-/mnt/ssd0/Lin4T/datasets/vlntube/VLNVerse_scene}"
+METAROOT="${METAROOT:-/mnt/ssd0/Lin4T/datasets/vlntube/SceneMeta/metadata_train}"
 WORK_DIR="${WORK_DIR:-$REPO_ROOT/work_dirs}"
 PYTHON="${PYTHON:-python3}"
 NUM_VIEWS="${NUM_VIEWS:-1}"

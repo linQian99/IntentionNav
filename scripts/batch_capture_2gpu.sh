@@ -10,8 +10,8 @@ set -u
 
 REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 SCENE_SUMMARY="${SCENE_SUMMARY:-/mnt/ssd0/Lin4T/datasets/vlntube/SceneSummary/kujiale_scene_summary}"
-USD_ROOT="${USD_ROOT:-/mnt/ssd0/Lin4T/datasets/vlntube/TataServices}"
-METAROOT="${METAROOT:-/mnt/ssd0/Lin4T/datasets/vlntube/TaTaMeta/metadata_train}"
+USD_ROOT="${USD_ROOT:-/mnt/ssd0/Lin4T/datasets/vlntube/VLNVerse_scene}"
+METAROOT="${METAROOT:-/mnt/ssd0/Lin4T/datasets/vlntube/SceneMeta/metadata_train}"
 SPLITS="${SPLITS:-$REPO_ROOT/splits/scene_splits.json}"
 WORK_DIR="${WORK_DIR:-$REPO_ROOT/work_dirs}"
 LOG_DIR="${LOG_DIR:-$WORK_DIR/batch_logs}"
