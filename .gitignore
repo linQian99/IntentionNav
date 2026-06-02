@@ -3,6 +3,8 @@ __pycache__/
 .pytest_cache/
 
 work_dirs/
+work_dir_phase2/
+benchmark/
 logs/
 batch_logs/
 parallel_logs/

@@ -3,11 +3,13 @@
 This repository contains the IntentionNav data collection code for Kujiale-style
 indoor scenes in Isaac Sim.
 
-The current release includes the collection stage only:
+The current release includes the data collection and benchmark construction pipeline:
 
 1. `surface_finder`: selects target objects and support surfaces from scene graphs.
 2. `capture_surfaces`: renders target-centric RGB photos and top-down overview maps.
-3. `regen_overview`: regenerates overview images from existing capture manifests.
+3. `generate_intents`: annotates captured targets with implicit human intents.
+4. `validate_and_build`: validates annotations and builds the benchmark JSON.
+5. `regen_overview`: regenerates overview images from existing capture manifests.
 
 Evaluation, model agents, paper drafts, generated data, logs, and archived baselines are intentionally not included here.
 
@@ -29,6 +31,7 @@ Before running the collection pipeline, download the required scene data:
 - Isaac Sim 4.5.0
 - Python environment with Isaac Sim available, plus `numpy`, `Pillow`, `opencv-python`,
   `matplotlib`, and `pyquaternion`
+- `google-generativeai` for the Gemini-based annotation stage
 - External scene assets:
   - `VLNVerse_scene`: USD scenes
   - `SceneMeta/metadata_train`: `freemap.npy` and `room_region.json`
@@ -90,6 +93,89 @@ NUM_VIEWS=2          # photos per target
 RESOLUTION=1024     # square RGB resolution
 ROUND_TIMEOUT=1800  # seconds per Isaac Sim worker round
 WORK_DIR=work_dirs  # output root
+```
+
+## Intent Annotation
+
+Phase 2 uses Gemini to turn each captured target photo into four implicit-intent
+queries with formal, natural, casual, and emotional variants.
+
+Set an API key first:
+
+```bash
+export GOOGLE_API_KEY=...
+# or
+export GEMINI_API_KEY=...
+```
+
+Then annotate all captured trainval scenes:
+
+```bash
+bash scripts/batch_annotate.sh
+```
+
+Annotate a slice:
+
+```bash
+bash scripts/batch_annotate.sh 0 20
+```
+
+Useful knobs:
+
+```bash
+MODEL=models/gemini-3-flash-preview
+WORKERS=8
+CAPTURE_DIR=work_dirs
+OUTPUT_DIR=work_dir_phase2
+```
+
+Check annotation progress:
+
+```bash
+python3 -m intentionnav.data_collection.check_status \
+  --capture-dir "$CAPTURE_DIR" \
+  --output-dir "$OUTPUT_DIR"
+```
+
+## Build Benchmark
+
+Phase 3 validates the annotations and builds the final benchmark file:
+
+```bash
+bash scripts/build_benchmark.sh
+```
+
+Default outputs:
+
+```text
+benchmark/intentionnav_benchmark.json
+benchmark/issues.jsonl
+```
+
+The benchmark JSON contains metadata, aggregate statistics, and an `episodes`
+array. Each episode includes:
+
+- `episode_id`
+- `scene_id`
+- `room`
+- `target_category`
+- `target_objects`
+- `photo`
+- `intent_variants`
+- `difficulty`
+- `split`
+
+Run the full local pipeline in sequence:
+
+```bash
+bash scripts/run_benchmark_pipeline.sh
+```
+
+To reuse existing captures or annotations:
+
+```bash
+SKIP_CAPTURE=1 bash scripts/run_benchmark_pipeline.sh
+SKIP_CAPTURE=1 SKIP_ANNOTATE=1 bash scripts/run_benchmark_pipeline.sh
 ```
 
 ## Regenerate Overviews
