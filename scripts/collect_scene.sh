@@ -20,9 +20,9 @@ if [ -z "$SCENE" ]; then
     exit 2
 fi
 
-SCENE_SUMMARY="${SCENE_SUMMARY:-/mnt/ssd0/Lin4T/datasets/vlntube/SceneSummary/kujiale_scene_summary}"
-USD_ROOT="${USD_ROOT:-/mnt/ssd0/Lin4T/datasets/vlntube/VLNVerse_scene}"
-METAROOT="${METAROOT:-/mnt/ssd0/Lin4T/datasets/vlntube/SceneMeta/metadata_train}"
+SCENE_SUMMARY="${SCENE_SUMMARY:-$REPO_ROOT/data/SceneSummary/kujiale_scene_summary}"
+USD_ROOT="${USD_ROOT:-$REPO_ROOT/data/VLNVerse_scene}"
+METAROOT="${METAROOT:-$REPO_ROOT/data/SceneMeta/metadata_train}"
 WORK_DIR="${WORK_DIR:-$REPO_ROOT/work_dirs}"
 PYTHON="${PYTHON:-python3}"
 NUM_VIEWS="${NUM_VIEWS:-1}"

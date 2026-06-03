@@ -37,8 +37,16 @@ Before running the collection pipeline, download the required scene data:
   - `SceneMeta/metadata_train`: `freemap.npy` and `room_region.json`
   - `SceneSummary/kujiale_scene_summary`: per-scene `object_dict.json`
 
-The scripts default to the local lab paths used during development. Override them
-with environment variables when running elsewhere:
+By default, scripts look for data under `data/` in this repository:
+
+```text
+data/
+  VLNVerse_scene/
+  SceneMeta/metadata_train/
+  SceneSummary/kujiale_scene_summary/
+```
+
+Override paths with environment variables when running elsewhere:
 
 ```bash
 export SCENE_SUMMARY=/path/to/kujiale_scene_summary

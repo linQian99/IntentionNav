@@ -9,7 +9,7 @@
 set -u
 
 REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-SCENE_SUMMARY="${SCENE_SUMMARY:-/mnt/ssd0/Lin4T/datasets/vlntube/SceneSummary/kujiale_scene_summary}"
+SCENE_SUMMARY="${SCENE_SUMMARY:-$REPO_ROOT/data/SceneSummary/kujiale_scene_summary}"
 SPLITS="${SPLITS:-$REPO_ROOT/splits/scene_splits.json}"
 CAPTURE_DIR="${CAPTURE_DIR:-$REPO_ROOT/work_dirs}"
 OUTPUT_DIR="${OUTPUT_DIR:-$REPO_ROOT/work_dir_phase2}"

@@ -5,6 +5,8 @@ __pycache__/
 work_dirs/
 work_dir_phase2/
 benchmark/
+data/
+external/
 logs/
 batch_logs/
 parallel_logs/

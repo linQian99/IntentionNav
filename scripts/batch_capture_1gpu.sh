@@ -9,14 +9,14 @@
 set -u
 
 REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-SCENE_SUMMARY="${SCENE_SUMMARY:-/mnt/ssd0/Lin4T/datasets/vlntube/SceneSummary/kujiale_scene_summary}"
-USD_ROOT="${USD_ROOT:-/mnt/ssd0/Lin4T/datasets/vlntube/VLNVerse_scene}"
-METAROOT="${METAROOT:-/mnt/ssd0/Lin4T/datasets/vlntube/SceneMeta/metadata_train}"
+SCENE_SUMMARY="${SCENE_SUMMARY:-$REPO_ROOT/data/SceneSummary/kujiale_scene_summary}"
+USD_ROOT="${USD_ROOT:-$REPO_ROOT/data/VLNVerse_scene}"
+METAROOT="${METAROOT:-$REPO_ROOT/data/SceneMeta/metadata_train}"
 SPLITS="${SPLITS:-$REPO_ROOT/splits/scene_splits.json}"
 WORK_DIR="${WORK_DIR:-$REPO_ROOT/work_dirs}"
 LOG_DIR="${LOG_DIR:-$WORK_DIR/batch_logs}"
-ISAACSIM_ROOT="${ISAACSIM_ROOT:-/mnt/ssd0/Lin4T/Project/ISAACSIM_ROOT}"
-GOODNAV_BIN="${GOODNAV_BIN:-/mnt/ssd0/Lin4T/envs/goodnav/bin}"
+ISAACSIM_ROOT="${ISAACSIM_ROOT:-$REPO_ROOT/external/isaacsim}"
+GOODNAV_BIN="${GOODNAV_BIN:-}"
 PYTHON="${PYTHON:-python3}"
 
 GPU_ID="${GPU_ID:-0}"
