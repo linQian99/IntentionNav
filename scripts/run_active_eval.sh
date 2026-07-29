@@ -109,7 +109,7 @@ fi
 DATASET_ROOT="${INTENTIONNAV_DATASET_ROOT:-$REPO/data/benchmark}"
 if [[ ! -f "$DATASET_ROOT/selected_500_intents.jsonl" ]]; then
     echo "benchmark data not found under $DATASET_ROOT" >&2
-    echo "run: bash scripts/download_release.sh benchmark" >&2
+    echo "run: python scripts/download_release.py benchmark" >&2
     exit 2
 fi
 if [[ -z "${INTENTIONNAV_API_KEY:-}${PP_API_KEY:-}" ]]; then
