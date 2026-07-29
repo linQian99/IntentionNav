@@ -1,0 +1,12 @@
+# Install inside an Isaac Sim 4.5-compatible Python environment.
+huggingface_hub>=0.28
+matplotlib>=3.7
+numpy>=1.24
+opencv-python>=4.8
+Pillow>=10.0
+PyYAML>=6.0
+requests>=2.31
+scikit-fmm>=2024.5
+scipy>=1.10
+torch>=2.1
+transformers>=4.45

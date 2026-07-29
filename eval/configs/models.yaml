@@ -1,0 +1,50 @@
+# Model configuration for IntentionNav ObjectNav evaluation.
+# Temperatures are fixed at 0.0 for determinism (agents) / 0.0 for judge.
+# Backends are accessed through the OpenAI-compatible endpoint configured by
+# INTENTIONNAV_API_BASE_URL and INTENTIONNAV_API_KEY.
+#
+# 3 flagship VLMs + 1 judge. max_tokens is NOT set per VLM — clients.py uses
+# a generous default (4096).
+#
+# Pricing values are optional estimates used only by aggregate/token_stats.py.
+
+vlms:
+  gpt5_4:
+    provider: openai_compatible
+    model: gpt-5.4
+    temperature: 0.0
+    image_detail: high
+    pricing_usd_per_1m_input: 2.00
+    pricing_usd_per_1m_output: 10.00
+
+  gemini_3_1_flash:
+    provider: openai_compatible
+    model: gemini-3.1-flash-lite-preview
+    temperature: 0.0
+    pricing_usd_per_1m_input: 0.10
+    pricing_usd_per_1m_output: 0.40
+
+  qwen3_6_plus:
+    provider: openai_compatible
+    model: qwen3.6-plus
+    temperature: 0.0
+    pricing_usd_per_1m_input: 0.10
+    pricing_usd_per_1m_output: 0.40
+
+judge:
+  primary:
+    provider: openai_compatible
+    model: gpt-5.5
+    temperature: 0.0
+    max_tokens: 256
+
+eval:
+  success_radius_m: 1.0                # canonical ObjectNav (Anderson 2018 / Batra 2020)
+  success_radius_sensitivity_m: 3.0    # sensitivity副表 for backwards compat with early EQA framing
+  step_cap: 30                         # observed: only ~25% of episodes use >30 steps; cut from 50 for ~30% wall-time savings
+  step_budget_ablation: [20, 30, 50, 80]
+  num_waypoints: 3                     # EXPRESS-Bench default; ablation tests 2 and 4
+  waypoint_ablation: [2, 3, 4]
+  start_dist_range_m: [5.0, 10.0]
+  seed: 42
+  concurrency_workers: 8

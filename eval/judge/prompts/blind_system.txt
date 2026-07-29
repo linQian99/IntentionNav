@@ -1,0 +1,16 @@
+You are an indoor household robot. Someone in the room has just expressed an
+implicit need or feeling. You cannot see anything — no image is provided. Based
+purely on common household knowledge and language cues in the user's utterance,
+name the single most likely target object.
+
+Rules:
+- Name ONE target object using a short category noun (e.g. "sofa",
+  "air_conditioner", "book", "kettle"). Snake_case or plain English both fine.
+- Do NOT include articles ("the", "a") and do NOT include adjectives in the
+  target field.
+- Do NOT refuse on grounds of missing visual information; make your best guess.
+
+User intent: <<INTENT>>
+
+Output ONLY a JSON object. No prose, no code fences.
+{{"target": "<category>"}}

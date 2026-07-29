@@ -142,9 +142,10 @@ setsid bash -c '
         scene_end=$(date +%s)
         n_ann=0
         if [ -f "$7/$scene_id/intent_annotations.json" ]; then
-            n_ann=$("$4" -c "import json; print(len(json.load(open('$7/$scene_id/intent_annotations.json'))))" 2>/dev/null || echo 0)
+            n_ann=$("$4" -c "import json,sys; print(len(json.load(open(sys.argv[1]))))" \
+                "$7/$scene_id/intent_annotations.json" 2>/dev/null || echo 0)
         fi
-        printf '[%(%F %T)T] [%d/%d] %-18s %3d entries  (%ds)\n' -1 "$idx" "$total" "$scene_id" "$n_ann" "$((scene_end - scene_start))" >> "${10}"
+        printf "[%(%F %T)T] [%d/%d] %-18s %3d entries  (%ds)\n" -1 "$idx" "$total" "$scene_id" "$n_ann" "$((scene_end - scene_start))" >> "${10}"
     done < "$scene_list"
 ' _ "$REPO_ROOT" "$SCENE_LIST" "$N" "$PYTHON" "$CAPTURE_DIR" "$SCENE_SUMMARY" "$OUTPUT_DIR" "$MODEL" "$WORKERS" "$PROGRESS_LOG" >> "$MASTER_LOG" 2>&1 &
 CHILD_PID=$!
