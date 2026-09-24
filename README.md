@@ -37,6 +37,28 @@ release. Hosted model APIs may change over time, so future API responses are not
 expected to be bit-identical; the released records support exact metric
 recomputation independently of future model calls.
 
+## Shared-Category System Comparison
+
+The [September comparison release](https://huggingface.co/datasets/Anonymous260726/IntentionNav/tree/main/system_comparison/20260924)
+adds the `reviewed-v3` inputs, 500 cached category predictions, frozen reference
+and MTU3D implementations, 2,000 full-set trajectories and 320 development
+repetitions. The full set includes 500 verified reused reference trajectories.
+This version contains 65 categories; the original hosted-backend study retains
+its 64-category inputs. Each version includes its own configuration and checksums.
+
+```bash
+python scripts/download_release.py system-comparison
+cd data/benchmark/system_comparison/20260924
+sha256sum -c SHA256SUMS
+tar -xzf shared_category_20260924.tar.gz
+cd shared_category_20260924
+pip install numpy PyYAML
+python recompute.py .
+```
+
+The last command verifies and recomputes all 2,320 trajectory labels, including
+the full-set GSR values, without a simulator or model API.
+
 ## Requirements
 
 Data collection and active evaluation use Isaac Sim 4.5.0. Lightweight data
