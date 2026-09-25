@@ -34,11 +34,12 @@ def main() -> None:
     )
     parser.add_argument(
         "component",
-        choices=("benchmark", "logs", "artifacts", "system-comparison", "all"),
+        choices=("benchmark", "logs", "artifacts", "system-comparison", "hosted-repeats", "all"),
         help=(
             "benchmark: fixed data and metadata; logs: benchmark plus the 6,000 "
             "record archive; artifacts: benchmark plus multi-GB visual artifacts; "
-            "system-comparison: September shared-category study; all: complete dataset repository"
+            "system-comparison: September shared-category study; "
+            "hosted-repeats: 480 fresh planning/navigation repetitions; all: complete dataset repository"
         ),
     )
     parser.add_argument(
@@ -64,6 +65,8 @@ def main() -> None:
         patterns = METADATA_PATTERNS + ARTIFACT_PATTERNS
     elif args.component == "system-comparison":
         patterns = ["system_comparison/20260924/*"]
+    elif args.component == "hosted-repeats":
+        patterns = ["hosted_repeats/20260925/*"]
     else:
         patterns = None
 

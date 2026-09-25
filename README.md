@@ -59,6 +59,28 @@ python recompute.py .
 The last command verifies and recomputes all 2,320 trajectory labels, including
 the full-set GSR values, without a simulator or model API.
 
+## Repeated Hosted Executions
+
+The [hosted repeat release](https://huggingface.co/datasets/Anonymous260726/IntentionNav/tree/main/hosted_repeats/20260925)
+contains 40 original tasks × four expressions × three full-pipeline executions
+with Gemini-3.1-Flash-Lite. All 480 episodes generate a fresh initial plan.
+It includes the original inputs, frozen code, trajectories, planning-call receipts,
+retained images/responses and paired task-level analysis.
+
+```bash
+python3 scripts/download_release.py hosted-repeats
+cd data/benchmark/hosted_repeats/20260925
+sha256sum -c SHA256SUMS
+tar -xzf hosted_repeats_20260925.tar.gz
+cd hosted_repeats_20260925
+python3 -m pip install numpy
+python3 recompute.py .
+```
+
+The scorer verifies the bundle and reproduces outcome disagreements, task/scene
+intervals and per-repeat SR/All-four without simulator or model calls.
+An earlier batch with reused initial plans is excluded from these 480 episodes.
+
 ## Requirements
 
 Data collection and active evaluation use Isaac Sim 4.5.0. Lightweight data
