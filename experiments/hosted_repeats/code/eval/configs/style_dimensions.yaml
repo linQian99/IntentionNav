@@ -1,0 +1,59 @@
+# Per-style dimension labels for the 4 intent styles in selected_500_intents.jsonl.
+#
+# Three dimensions tracked:
+#   - tone:       register / affect (4 levels)
+#   - length:     terse / mid / long  (empirical: word-count median)
+#   - directness: direct / indirect   (whether the speaker states the goal plainly
+#                                      or hints via context)
+#
+# Labels are fixed across all 500 items because the underlying style design is
+# stable (casual_en is shortest in 99% of items; emotional_en/formal_en are
+# longest in 95% of items combined; directness is determined by the style's
+# pragmatic register).
+#
+# Note: dimensions are confounded by style design — formal tends to be long +
+# indirect, casual tends to be terse + direct. Clean per-axis ablation is not
+# possible without regenerating styles. Report style-level results and discuss
+# coupling explicitly.
+
+styles:
+  formal_en:
+    tone: formal
+    length: long
+    directness: indirect
+    word_count_median: 13
+  natural_en:
+    tone: natural
+    length: mid
+    directness: direct
+    word_count_median: 10
+  casual_en:
+    tone: casual
+    length: terse
+    directness: direct
+    word_count_median: 5
+  emotional_en:
+    tone: emotional
+    length: long
+    directness: indirect
+    word_count_median: 12
+
+dimension_levels:
+  tone: [formal, natural, casual, emotional]
+  length: [terse, mid, long]
+  directness: [direct, indirect]
+
+# Useful contrasts (acknowledge confounding):
+contrasts:
+  length_extreme:        # most confounded
+    A: casual_en
+    B: formal_en
+    note: "differs in length (5 vs 13 words) AND tone AND directness"
+  directness_paired:     # least confounded for directness
+    A: natural_en        # direct, mid length, natural tone
+    B: emotional_en      # indirect, long length, emotional tone
+    note: "directness contrast but length and tone also vary"
+  tone_register:
+    A: formal_en
+    B: casual_en
+    note: "register contrast but length and directness also vary"

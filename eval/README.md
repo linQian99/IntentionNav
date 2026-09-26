@@ -3,6 +3,10 @@
 This directory contains the active-navigation agent and deterministic metric
 implementation released with IntentionNav.
 
+The shared-category reference/MTU3D comparison and hosted repetition study have
+their own executed source snapshots in [`../experiments/`](../experiments/README.md).
+Use the snapshot corresponding to the result being reproduced.
+
 ## Layout
 
 - `agents/`: hosted-VLM, random, frontier, oracle, and text-only agents.

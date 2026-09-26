@@ -1,0 +1,149 @@
+{
+  "data_version": "reviewed-v3",
+  "tasks": 500,
+  "scenes": 176,
+  "categories": 65,
+  "conditions": [
+    {
+      "system": "r055",
+      "category_input": "predicted"
+    },
+    {
+      "system": "r055",
+      "category_input": "correct"
+    },
+    {
+      "system": "mtu3d",
+      "category_input": "predicted"
+    },
+    {
+      "system": "mtu3d",
+      "category_input": "correct"
+    }
+  ],
+  "full_trajectories": 2000,
+  "development_tasks": 40,
+  "development_repeats": 2,
+  "development_trajectories": 320,
+  "reused_reference_correct_trajectories": 500,
+  "policy_sources": {
+    "r055": "r055_motion_safe_v2",
+    "mtu3d": "mtu3d_projection_precision"
+  },
+  "frontend": {
+    "model": "Qwen/Qwen3.5-4B",
+    "revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+    "style": "formal",
+    "batch_size": 16,
+    "max_new_tokens": 48,
+    "decoding": "greedy",
+    "cached_predictions": 500
+  },
+  "execution": {
+    "isaac_sim": "4.5.0",
+    "python": "3.10",
+    "resolution": [
+      768,
+      768
+    ],
+    "horizontal_fov_degrees": 90,
+    "max_actions": 30,
+    "render_antialiasing_mode": 2,
+    "render_ticks": 8,
+    "full_seed": 20260909,
+    "development_seeds": [
+      20260909,
+      20260910
+    ],
+    "max_parallel": 1,
+    "numpy_for_scoring": "1.26.0",
+    "opencv_for_scoring": "4.9.0"
+  },
+  "mtu_arguments": {
+    "commit_scan": "multiview",
+    "scan_schedule": "initial_then_history",
+    "exploration_mode": "boundary_commit",
+    "object_goal_mode": "fresh_surface_pose"
+  },
+  "mtu_dependencies": {
+    "base": "Isolated Python 3.10 venv; torch2.0.0 CUDA11.7; no change to goodnav",
+    "source": {
+      "MTU3D": "c10335ce8effd881e481a5f669add7d040aec947",
+      "MinkowskiEngine": "02fc608bea4c0549b0a7b00ca1bf15dee4a0b228",
+      "FastSAM": "b4ed20c2fed75eadc5aa7d8b09fedd137b873b52"
+    },
+    "system": {
+      "cuda_home": "/usr/local/cuda-11.7",
+      "cxx": "/usr/bin/g++-11",
+      "blas": "openblas",
+      "max_jobs": 4
+    },
+    "pip_phases": [
+      [
+        "pip==24.0",
+        "setuptools==68.2.2",
+        "wheel==0.43.0",
+        "numpy==1.23.5",
+        "ninja==1.11.1.1",
+        "Cython==0.29.37"
+      ],
+      [
+        "torch==2.0.0+cu117",
+        "torchvision==0.15.1+cu117"
+      ],
+      [
+        "torch_scatter==2.1.2+pt20cu117"
+      ],
+      [
+        "accelerate==0.26.1",
+        "einops==0.6.0",
+        "huggingface-hub==0.33.1",
+        "hydra-core==1.3.2",
+        "omegaconf==2.3.0",
+        "opencv-python==4.7.0.72",
+        "opencv-python-headless==4.7.0.72",
+        "Pillow==9.4.0",
+        "transformers==4.37.2",
+        "tokenizers==0.15.1",
+        "timm==0.4.12",
+        "albumentations==1.3.1",
+        "easydict==1.10",
+        "volumentations-3D==1.0.4",
+        "volumentations==0.1.8",
+        "pycocotools==2.0.7",
+        "sentence-transformers==2.2.2",
+        "nltk==3.8.1",
+        "fpsample==0.3.2",
+        "jsonlines==4.0.0",
+        "open3d==0.18.0",
+        "plyfile==1.0.3",
+        "fvcore==0.1.5.post20221221",
+        "numpy-quaternion==2023.0.4",
+        "scipy==1.10.1",
+        "ultralytics==8.0.120",
+        "wandb==0.14.0",
+        "submitit==1.4.5",
+        "ftfy==6.2.3",
+        "regex==2024.11.6"
+      ]
+    ],
+    "before_phase3": [
+      "PyYAML==5.4.1 --no-build-isolation"
+    ],
+    "weights": {
+      "repo": "bigai/MTU3D",
+      "revision": "b368c81ac25bc36797b91dcf68e567694d4efb30",
+      "files": [
+        "stage1-pretrain-all/pytorch_model.bin",
+        "stage2-fine-tune-ovon/pytorch_model.bin"
+      ]
+    }
+  },
+  "scoring": {
+    "SR": "Final target-center XY distance <= 2 m; no STOP requirement.",
+    "OSR": "Any trajectory target-center XY distance <= 2 m.",
+    "GSR": "Final target-center XY distance <= 1 m and geometric visibility.",
+    "StopSR": "Explicit STOP within 30 actions and <= 2 m XY distance to target bounding box."
+  },
+  "public_provenance": "system_comparison/20260924/shared_category_20260924/provenance/manifest.json"
+}

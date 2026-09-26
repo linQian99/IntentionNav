@@ -1,0 +1,232 @@
+# Synonym map for the 66 DDN benchmark target categories.
+#
+# Used by IM (Intent Match): a model's free-text predicted target is
+# lowercased and snake-cased, then checked against keys + aliases below.
+# Exact or alias match → IM=1. IM is independent of nav success (SR);
+# IM measures pure intent comprehension by the LLM.
+#
+# Keys are the canonical target_category strings as they appear in
+# selected_500_intents.jsonl. Aliases include plausible synonyms, hyponyms,
+# and common misspellings. Case-insensitive; snake_case and plain-English
+# both accepted by the matcher.
+
+air_conditioner:
+  - ac
+  - air_con
+  - aircon
+  - hvac
+  - air_conditioning
+air_purifier:
+  - purifier
+  - air_cleaner
+basin:
+  - washbasin
+  - wash_basin
+  - sink
+  - bathroom_sink
+bathtub:
+  - tub
+  - bath
+  - bathing_tub
+bed:
+  - bedframe
+  - mattress
+bench: []
+book:
+  - novel
+  - textbook
+bowl:
+  - soup_bowl
+  - cereal_bowl
+bread_machine:
+  - bread_maker
+  - breadmaker
+builtin_oven:
+  - oven
+  - built_in_oven
+  - wall_oven
+cabinet:
+  - cupboard
+  - cabinetry
+  - closet
+ceiling_light:
+  - ceiling_lamp
+  - overhead_light
+chair:
+  - seat
+chandelier:
+  - pendant_light
+chopstick:
+  - chopsticks
+clock:
+  - wall_clock
+  - analog_clock
+  - digital_clock
+closestool:
+  - toilet
+  - wc
+  - commode
+  - water_closet
+coffee_maker:
+  - coffee_machine
+  - espresso_machine
+  - coffeemaker
+cosmetic:
+  - cosmetics
+  - makeup
+  - skincare
+  - toiletries
+couch:
+  - sofa
+  - settee
+cup:
+  - mug
+  - teacup
+  - coffee_cup
+  - glass
+curtain:
+  - curtains
+  - drape
+  - drapes
+  - blinds
+cushion:
+  - seat_cushion
+desk:
+  - writing_desk
+  - office_desk
+  - study_desk
+dining_table:
+  - dinner_table
+  - kitchen_table
+dish_washer:
+  - dishwasher
+electric_cooker:
+  - rice_cooker
+  - electric_pot
+  - slow_cooker
+floor_lamp:
+  - standing_lamp
+flower:
+  - flowers
+  - bouquet
+  - floral_arrangement
+fork: []
+fridge:
+  - refrigerator
+  - icebox
+fruit:
+  - fruits
+  - fruit_bowl
+kettle:
+  - electric_kettle
+  - tea_kettle
+knife: []
+menorah:
+  - candelabra
+  - candle_holder
+microwave:
+  - microwave_oven
+mirror:
+  - wall_mirror
+  - vanity_mirror
+night_stand:
+  - nightstand
+  - bedside_table
+  - bedside_cabinet
+painting:
+  - artwork
+  - art
+  - wall_art
+pet:
+  - dog
+  - cat
+  - animal
+piano:
+  - keyboard
+  - upright_piano
+picture_frame:
+  - photo_frame
+  - frame
+  - framed_picture
+pillow:
+  - throw_pillow
+  - cushion
+plate:
+  - dish
+  - dinner_plate
+range_hood:
+  - extractor
+  - kitchen_hood
+  - stove_hood
+  - vent_hood
+screen:
+  - monitor
+  - display
+  - computer_screen
+sculpture:
+  - statue
+  - figurine
+shelf:
+  - shelving
+  - bookshelf
+  - wall_shelf
+sofa:
+  - couch
+  - settee
+sound:
+  - speaker
+  - speakers
+  - sound_system
+  - stereo
+spoon: []
+stool:
+  - bar_stool
+  - footstool
+storage:
+  - storage_box
+  - storage_container
+table:
+  - coffee_table
+  - side_table
+  - end_table
+table_lamp:
+  - desk_lamp
+  - lamp
+tea_set:
+  - teapot
+  - teaware
+television:
+  - tv
+  - tele
+  - flatscreen
+  - smart_tv
+throw_pillow:
+  - accent_pillow
+  - decorative_pillow
+  - pillow
+toilet:
+  - closestool
+  - wc
+  - commode
+toy:
+  - toys
+  - plaything
+vase:
+  - flower_vase
+  - ceramic_vase
+wall_light:
+  - sconce
+  - wall_lamp
+  - wall_sconce
+washing_machine:
+  - washer
+  - laundry_machine
+water_cooler:
+  - water_dispenser
+water_heater:
+  - boiler
+  - hot_water_tank
+wine_set:
+  - wine_rack
+  - wine_glass
+  - wine_bottle

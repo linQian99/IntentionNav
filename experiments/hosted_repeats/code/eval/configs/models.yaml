@@ -1,0 +1,51 @@
+# Model configuration for ImplicitNav ObjectNav eval.
+# Temperatures are fixed at 0.0 for determinism (agents) / 0.0 for judge.
+# All providers routed through 2077ai pp-api proxy (env: PP_API_BASE_URL, PP_API_KEY).
+#
+# 3 flagship VLMs + 1 judge. max_tokens is NOT set per VLM — clients.py uses
+# a generous default (4096).
+#
+# pricing_usd_per_1m_{input,output}: USD cost per 1 million tokens. Used by
+# aggregate/token_stats.py for pilot → full-run cost projection. PP-API
+# pricing TBD — placeholders below; verify before submitting reimbursement.
+
+vlms:
+  gpt5_4:
+    provider: ppapi
+    model: gpt-5.4
+    temperature: 0.0
+    image_detail: high
+    pricing_usd_per_1m_input: 2.00     # TODO verify PP-API gpt-5.4 pricing
+    pricing_usd_per_1m_output: 10.00
+
+  gemini_3_1_flash:
+    provider: ppapi
+    model: gemini-3.1-flash-lite-preview
+    temperature: 0.0
+    pricing_usd_per_1m_input: 0.10     # TODO verify PP-API gemini-3.1-flash-lite pricing
+    pricing_usd_per_1m_output: 0.40
+
+  qwen3_6_plus:
+    provider: ppapi
+    model: qwen3.6-plus
+    temperature: 0.0
+    pricing_usd_per_1m_input: 0.10     # TODO verify PP-API qwen3.6-plus pricing
+    pricing_usd_per_1m_output: 0.40
+
+judge:
+  primary:
+    provider: ppapi
+    model: gpt-5.5                     # gpt-4o-2024-11-20 not exposed on PP-API; gpt-5.5 is judge default
+    temperature: 0.0
+    max_tokens: 256
+
+eval:
+  success_radius_m: 1.0                # canonical ObjectNav (Anderson 2018 / Batra 2020)
+  success_radius_sensitivity_m: 3.0    # sensitivity副表 for backwards compat with early EQA framing
+  step_cap: 30                         # observed: only ~25% of episodes use >30 steps; cut from 50 for ~30% wall-time savings
+  step_budget_ablation: [20, 30, 50, 80]
+  num_waypoints: 3                     # EXPRESS-Bench default; ablation tests 2 and 4
+  waypoint_ablation: [2, 3, 4]
+  start_dist_range_m: [5.0, 10.0]
+  seed: 42
+  concurrency_workers: 8

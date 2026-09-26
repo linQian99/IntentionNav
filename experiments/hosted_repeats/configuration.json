@@ -1,0 +1,3422 @@
+{
+  "policy_revision": "c3c9ee08438bb445d49a0ee6e8f553c54db44bca",
+  "dataset_revision": "22914d21b74938ee2d5db503ab20392d726c52c7",
+  "selection_seed": 20260924,
+  "selection_ids": [
+    "SEL_009",
+    "SEL_020",
+    "SEL_032",
+    "SEL_047",
+    "SEL_078",
+    "SEL_109",
+    "SEL_130",
+    "SEL_144",
+    "SEL_145",
+    "SEL_151",
+    "SEL_180",
+    "SEL_186",
+    "SEL_198",
+    "SEL_199",
+    "SEL_229",
+    "SEL_237",
+    "SEL_251",
+    "SEL_287",
+    "SEL_288",
+    "SEL_291",
+    "SEL_298",
+    "SEL_303",
+    "SEL_315",
+    "SEL_336",
+    "SEL_346",
+    "SEL_361",
+    "SEL_382",
+    "SEL_391",
+    "SEL_395",
+    "SEL_407",
+    "SEL_413",
+    "SEL_423",
+    "SEL_425",
+    "SEL_440",
+    "SEL_442",
+    "SEL_454",
+    "SEL_457",
+    "SEL_495",
+    "SEL_505",
+    "SEL_508"
+  ],
+  "schedule": [
+    {
+      "selection_id": "SEL_009",
+      "scene_id": "kujiale_0193",
+      "style": "casual",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_009",
+      "scene_id": "kujiale_0193",
+      "style": "formal",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_009",
+      "scene_id": "kujiale_0193",
+      "style": "emotional",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_009",
+      "scene_id": "kujiale_0193",
+      "style": "formal",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_009",
+      "scene_id": "kujiale_0193",
+      "style": "casual",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_009",
+      "scene_id": "kujiale_0193",
+      "style": "emotional",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_009",
+      "scene_id": "kujiale_0193",
+      "style": "formal",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_009",
+      "scene_id": "kujiale_0193",
+      "style": "emotional",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_009",
+      "scene_id": "kujiale_0193",
+      "style": "natural",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_009",
+      "scene_id": "kujiale_0193",
+      "style": "casual",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_009",
+      "scene_id": "kujiale_0193",
+      "style": "natural",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_009",
+      "scene_id": "kujiale_0193",
+      "style": "natural",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_020",
+      "scene_id": "kujiale_0177",
+      "style": "emotional",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_020",
+      "scene_id": "kujiale_0177",
+      "style": "emotional",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_020",
+      "scene_id": "kujiale_0177",
+      "style": "casual",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_020",
+      "scene_id": "kujiale_0177",
+      "style": "casual",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_020",
+      "scene_id": "kujiale_0177",
+      "style": "natural",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_020",
+      "scene_id": "kujiale_0177",
+      "style": "natural",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_020",
+      "scene_id": "kujiale_0177",
+      "style": "natural",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_020",
+      "scene_id": "kujiale_0177",
+      "style": "formal",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_020",
+      "scene_id": "kujiale_0177",
+      "style": "formal",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_020",
+      "scene_id": "kujiale_0177",
+      "style": "emotional",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_020",
+      "scene_id": "kujiale_0177",
+      "style": "casual",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_020",
+      "scene_id": "kujiale_0177",
+      "style": "formal",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_032",
+      "scene_id": "kujiale_0254",
+      "style": "casual",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_032",
+      "scene_id": "kujiale_0254",
+      "style": "formal",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_032",
+      "scene_id": "kujiale_0254",
+      "style": "natural",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_032",
+      "scene_id": "kujiale_0254",
+      "style": "emotional",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_032",
+      "scene_id": "kujiale_0254",
+      "style": "emotional",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_032",
+      "scene_id": "kujiale_0254",
+      "style": "casual",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_032",
+      "scene_id": "kujiale_0254",
+      "style": "natural",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_032",
+      "scene_id": "kujiale_0254",
+      "style": "casual",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_032",
+      "scene_id": "kujiale_0254",
+      "style": "formal",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_032",
+      "scene_id": "kujiale_0254",
+      "style": "natural",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_032",
+      "scene_id": "kujiale_0254",
+      "style": "emotional",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_032",
+      "scene_id": "kujiale_0254",
+      "style": "formal",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_047",
+      "scene_id": "kujiale_0182",
+      "style": "formal",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_047",
+      "scene_id": "kujiale_0182",
+      "style": "emotional",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_047",
+      "scene_id": "kujiale_0182",
+      "style": "casual",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_047",
+      "scene_id": "kujiale_0182",
+      "style": "emotional",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_047",
+      "scene_id": "kujiale_0182",
+      "style": "natural",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_047",
+      "scene_id": "kujiale_0182",
+      "style": "formal",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_047",
+      "scene_id": "kujiale_0182",
+      "style": "natural",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_047",
+      "scene_id": "kujiale_0182",
+      "style": "emotional",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_047",
+      "scene_id": "kujiale_0182",
+      "style": "casual",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_047",
+      "scene_id": "kujiale_0182",
+      "style": "formal",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_047",
+      "scene_id": "kujiale_0182",
+      "style": "natural",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_047",
+      "scene_id": "kujiale_0182",
+      "style": "casual",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_078",
+      "scene_id": "kujiale_0009",
+      "style": "casual",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_078",
+      "scene_id": "kujiale_0009",
+      "style": "natural",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_078",
+      "scene_id": "kujiale_0009",
+      "style": "formal",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_078",
+      "scene_id": "kujiale_0009",
+      "style": "formal",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_078",
+      "scene_id": "kujiale_0009",
+      "style": "natural",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_078",
+      "scene_id": "kujiale_0009",
+      "style": "emotional",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_078",
+      "scene_id": "kujiale_0009",
+      "style": "emotional",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_078",
+      "scene_id": "kujiale_0009",
+      "style": "natural",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_078",
+      "scene_id": "kujiale_0009",
+      "style": "formal",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_078",
+      "scene_id": "kujiale_0009",
+      "style": "emotional",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_078",
+      "scene_id": "kujiale_0009",
+      "style": "casual",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_078",
+      "scene_id": "kujiale_0009",
+      "style": "casual",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_109",
+      "scene_id": "kujiale_0092",
+      "style": "natural",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_109",
+      "scene_id": "kujiale_0092",
+      "style": "casual",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_109",
+      "scene_id": "kujiale_0092",
+      "style": "formal",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_109",
+      "scene_id": "kujiale_0092",
+      "style": "casual",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_109",
+      "scene_id": "kujiale_0092",
+      "style": "emotional",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_109",
+      "scene_id": "kujiale_0092",
+      "style": "formal",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_109",
+      "scene_id": "kujiale_0092",
+      "style": "emotional",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_109",
+      "scene_id": "kujiale_0092",
+      "style": "casual",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_109",
+      "scene_id": "kujiale_0092",
+      "style": "formal",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_109",
+      "scene_id": "kujiale_0092",
+      "style": "natural",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_109",
+      "scene_id": "kujiale_0092",
+      "style": "natural",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_109",
+      "scene_id": "kujiale_0092",
+      "style": "emotional",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_130",
+      "scene_id": "kujiale_0013",
+      "style": "emotional",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_130",
+      "scene_id": "kujiale_0013",
+      "style": "casual",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_130",
+      "scene_id": "kujiale_0013",
+      "style": "emotional",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_130",
+      "scene_id": "kujiale_0013",
+      "style": "formal",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_130",
+      "scene_id": "kujiale_0013",
+      "style": "natural",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_130",
+      "scene_id": "kujiale_0013",
+      "style": "casual",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_130",
+      "scene_id": "kujiale_0013",
+      "style": "casual",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_130",
+      "scene_id": "kujiale_0013",
+      "style": "natural",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_130",
+      "scene_id": "kujiale_0013",
+      "style": "formal",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_130",
+      "scene_id": "kujiale_0013",
+      "style": "emotional",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_130",
+      "scene_id": "kujiale_0013",
+      "style": "formal",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_130",
+      "scene_id": "kujiale_0013",
+      "style": "natural",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_144",
+      "scene_id": "kujiale_0144",
+      "style": "natural",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_144",
+      "scene_id": "kujiale_0144",
+      "style": "emotional",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_144",
+      "scene_id": "kujiale_0144",
+      "style": "casual",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_144",
+      "scene_id": "kujiale_0144",
+      "style": "natural",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_144",
+      "scene_id": "kujiale_0144",
+      "style": "casual",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_144",
+      "scene_id": "kujiale_0144",
+      "style": "formal",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_144",
+      "scene_id": "kujiale_0144",
+      "style": "emotional",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_144",
+      "scene_id": "kujiale_0144",
+      "style": "formal",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_144",
+      "scene_id": "kujiale_0144",
+      "style": "natural",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_144",
+      "scene_id": "kujiale_0144",
+      "style": "casual",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_144",
+      "scene_id": "kujiale_0144",
+      "style": "emotional",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_144",
+      "scene_id": "kujiale_0144",
+      "style": "formal",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_145",
+      "scene_id": "kujiale_0292",
+      "style": "formal",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_145",
+      "scene_id": "kujiale_0292",
+      "style": "casual",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_145",
+      "scene_id": "kujiale_0292",
+      "style": "natural",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_145",
+      "scene_id": "kujiale_0292",
+      "style": "casual",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_145",
+      "scene_id": "kujiale_0292",
+      "style": "casual",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_145",
+      "scene_id": "kujiale_0292",
+      "style": "emotional",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_145",
+      "scene_id": "kujiale_0292",
+      "style": "emotional",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_145",
+      "scene_id": "kujiale_0292",
+      "style": "natural",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_145",
+      "scene_id": "kujiale_0292",
+      "style": "emotional",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_145",
+      "scene_id": "kujiale_0292",
+      "style": "formal",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_145",
+      "scene_id": "kujiale_0292",
+      "style": "natural",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_145",
+      "scene_id": "kujiale_0292",
+      "style": "formal",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_151",
+      "scene_id": "kujiale_0049",
+      "style": "natural",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_151",
+      "scene_id": "kujiale_0049",
+      "style": "casual",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_151",
+      "scene_id": "kujiale_0049",
+      "style": "casual",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_151",
+      "scene_id": "kujiale_0049",
+      "style": "natural",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_151",
+      "scene_id": "kujiale_0049",
+      "style": "casual",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_151",
+      "scene_id": "kujiale_0049",
+      "style": "natural",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_151",
+      "scene_id": "kujiale_0049",
+      "style": "emotional",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_151",
+      "scene_id": "kujiale_0049",
+      "style": "emotional",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_151",
+      "scene_id": "kujiale_0049",
+      "style": "formal",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_151",
+      "scene_id": "kujiale_0049",
+      "style": "formal",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_151",
+      "scene_id": "kujiale_0049",
+      "style": "formal",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_151",
+      "scene_id": "kujiale_0049",
+      "style": "emotional",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_180",
+      "scene_id": "kujiale_0018",
+      "style": "casual",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_180",
+      "scene_id": "kujiale_0018",
+      "style": "emotional",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_180",
+      "scene_id": "kujiale_0018",
+      "style": "casual",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_180",
+      "scene_id": "kujiale_0018",
+      "style": "natural",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_180",
+      "scene_id": "kujiale_0018",
+      "style": "formal",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_180",
+      "scene_id": "kujiale_0018",
+      "style": "formal",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_180",
+      "scene_id": "kujiale_0018",
+      "style": "natural",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_180",
+      "scene_id": "kujiale_0018",
+      "style": "formal",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_180",
+      "scene_id": "kujiale_0018",
+      "style": "natural",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_180",
+      "scene_id": "kujiale_0018",
+      "style": "emotional",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_180",
+      "scene_id": "kujiale_0018",
+      "style": "casual",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_180",
+      "scene_id": "kujiale_0018",
+      "style": "emotional",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_186",
+      "scene_id": "kujiale_0206",
+      "style": "emotional",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_186",
+      "scene_id": "kujiale_0206",
+      "style": "formal",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_186",
+      "scene_id": "kujiale_0206",
+      "style": "formal",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_186",
+      "scene_id": "kujiale_0206",
+      "style": "casual",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_186",
+      "scene_id": "kujiale_0206",
+      "style": "emotional",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_186",
+      "scene_id": "kujiale_0206",
+      "style": "natural",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_186",
+      "scene_id": "kujiale_0206",
+      "style": "natural",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_186",
+      "scene_id": "kujiale_0206",
+      "style": "natural",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_186",
+      "scene_id": "kujiale_0206",
+      "style": "emotional",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_186",
+      "scene_id": "kujiale_0206",
+      "style": "casual",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_186",
+      "scene_id": "kujiale_0206",
+      "style": "casual",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_186",
+      "scene_id": "kujiale_0206",
+      "style": "formal",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_198",
+      "scene_id": "kujiale_0056",
+      "style": "casual",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_198",
+      "scene_id": "kujiale_0056",
+      "style": "natural",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_198",
+      "scene_id": "kujiale_0056",
+      "style": "formal",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_198",
+      "scene_id": "kujiale_0056",
+      "style": "casual",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_198",
+      "scene_id": "kujiale_0056",
+      "style": "emotional",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_198",
+      "scene_id": "kujiale_0056",
+      "style": "natural",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_198",
+      "scene_id": "kujiale_0056",
+      "style": "emotional",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_198",
+      "scene_id": "kujiale_0056",
+      "style": "formal",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_198",
+      "scene_id": "kujiale_0056",
+      "style": "casual",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_198",
+      "scene_id": "kujiale_0056",
+      "style": "emotional",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_198",
+      "scene_id": "kujiale_0056",
+      "style": "formal",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_198",
+      "scene_id": "kujiale_0056",
+      "style": "natural",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_199",
+      "scene_id": "kujiale_0070",
+      "style": "emotional",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_199",
+      "scene_id": "kujiale_0070",
+      "style": "natural",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_199",
+      "scene_id": "kujiale_0070",
+      "style": "natural",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_199",
+      "scene_id": "kujiale_0070",
+      "style": "emotional",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_199",
+      "scene_id": "kujiale_0070",
+      "style": "formal",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_199",
+      "scene_id": "kujiale_0070",
+      "style": "formal",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_199",
+      "scene_id": "kujiale_0070",
+      "style": "casual",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_199",
+      "scene_id": "kujiale_0070",
+      "style": "formal",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_199",
+      "scene_id": "kujiale_0070",
+      "style": "casual",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_199",
+      "scene_id": "kujiale_0070",
+      "style": "emotional",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_199",
+      "scene_id": "kujiale_0070",
+      "style": "casual",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_199",
+      "scene_id": "kujiale_0070",
+      "style": "natural",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_229",
+      "scene_id": "kujiale_0100",
+      "style": "casual",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_229",
+      "scene_id": "kujiale_0100",
+      "style": "formal",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_229",
+      "scene_id": "kujiale_0100",
+      "style": "emotional",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_229",
+      "scene_id": "kujiale_0100",
+      "style": "natural",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_229",
+      "scene_id": "kujiale_0100",
+      "style": "emotional",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_229",
+      "scene_id": "kujiale_0100",
+      "style": "emotional",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_229",
+      "scene_id": "kujiale_0100",
+      "style": "formal",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_229",
+      "scene_id": "kujiale_0100",
+      "style": "natural",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_229",
+      "scene_id": "kujiale_0100",
+      "style": "casual",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_229",
+      "scene_id": "kujiale_0100",
+      "style": "formal",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_229",
+      "scene_id": "kujiale_0100",
+      "style": "casual",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_229",
+      "scene_id": "kujiale_0100",
+      "style": "natural",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_237",
+      "scene_id": "kujiale_0148",
+      "style": "formal",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_237",
+      "scene_id": "kujiale_0148",
+      "style": "formal",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_237",
+      "scene_id": "kujiale_0148",
+      "style": "formal",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_237",
+      "scene_id": "kujiale_0148",
+      "style": "emotional",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_237",
+      "scene_id": "kujiale_0148",
+      "style": "natural",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_237",
+      "scene_id": "kujiale_0148",
+      "style": "natural",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_237",
+      "scene_id": "kujiale_0148",
+      "style": "emotional",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_237",
+      "scene_id": "kujiale_0148",
+      "style": "casual",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_237",
+      "scene_id": "kujiale_0148",
+      "style": "casual",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_237",
+      "scene_id": "kujiale_0148",
+      "style": "natural",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_237",
+      "scene_id": "kujiale_0148",
+      "style": "casual",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_237",
+      "scene_id": "kujiale_0148",
+      "style": "emotional",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_251",
+      "scene_id": "kujiale_0068",
+      "style": "emotional",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_251",
+      "scene_id": "kujiale_0068",
+      "style": "formal",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_251",
+      "scene_id": "kujiale_0068",
+      "style": "formal",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_251",
+      "scene_id": "kujiale_0068",
+      "style": "emotional",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_251",
+      "scene_id": "kujiale_0068",
+      "style": "casual",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_251",
+      "scene_id": "kujiale_0068",
+      "style": "casual",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_251",
+      "scene_id": "kujiale_0068",
+      "style": "formal",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_251",
+      "scene_id": "kujiale_0068",
+      "style": "casual",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_251",
+      "scene_id": "kujiale_0068",
+      "style": "natural",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_251",
+      "scene_id": "kujiale_0068",
+      "style": "emotional",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_251",
+      "scene_id": "kujiale_0068",
+      "style": "natural",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_251",
+      "scene_id": "kujiale_0068",
+      "style": "natural",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_287",
+      "scene_id": "kujiale_0215",
+      "style": "emotional",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_287",
+      "scene_id": "kujiale_0215",
+      "style": "formal",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_287",
+      "scene_id": "kujiale_0215",
+      "style": "casual",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_287",
+      "scene_id": "kujiale_0215",
+      "style": "natural",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_287",
+      "scene_id": "kujiale_0215",
+      "style": "casual",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_287",
+      "scene_id": "kujiale_0215",
+      "style": "emotional",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_287",
+      "scene_id": "kujiale_0215",
+      "style": "natural",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_287",
+      "scene_id": "kujiale_0215",
+      "style": "formal",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_287",
+      "scene_id": "kujiale_0215",
+      "style": "formal",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_287",
+      "scene_id": "kujiale_0215",
+      "style": "natural",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_287",
+      "scene_id": "kujiale_0215",
+      "style": "casual",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_287",
+      "scene_id": "kujiale_0215",
+      "style": "emotional",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_288",
+      "scene_id": "kujiale_0045",
+      "style": "formal",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_288",
+      "scene_id": "kujiale_0045",
+      "style": "emotional",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_288",
+      "scene_id": "kujiale_0045",
+      "style": "natural",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_288",
+      "scene_id": "kujiale_0045",
+      "style": "formal",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_288",
+      "scene_id": "kujiale_0045",
+      "style": "emotional",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_288",
+      "scene_id": "kujiale_0045",
+      "style": "casual",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_288",
+      "scene_id": "kujiale_0045",
+      "style": "natural",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_288",
+      "scene_id": "kujiale_0045",
+      "style": "casual",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_288",
+      "scene_id": "kujiale_0045",
+      "style": "natural",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_288",
+      "scene_id": "kujiale_0045",
+      "style": "casual",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_288",
+      "scene_id": "kujiale_0045",
+      "style": "emotional",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_288",
+      "scene_id": "kujiale_0045",
+      "style": "formal",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_291",
+      "scene_id": "kujiale_0148",
+      "style": "casual",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_291",
+      "scene_id": "kujiale_0148",
+      "style": "emotional",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_291",
+      "scene_id": "kujiale_0148",
+      "style": "formal",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_291",
+      "scene_id": "kujiale_0148",
+      "style": "casual",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_291",
+      "scene_id": "kujiale_0148",
+      "style": "casual",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_291",
+      "scene_id": "kujiale_0148",
+      "style": "natural",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_291",
+      "scene_id": "kujiale_0148",
+      "style": "formal",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_291",
+      "scene_id": "kujiale_0148",
+      "style": "emotional",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_291",
+      "scene_id": "kujiale_0148",
+      "style": "formal",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_291",
+      "scene_id": "kujiale_0148",
+      "style": "emotional",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_291",
+      "scene_id": "kujiale_0148",
+      "style": "natural",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_291",
+      "scene_id": "kujiale_0148",
+      "style": "natural",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_298",
+      "scene_id": "kujiale_0126_fix",
+      "style": "formal",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_298",
+      "scene_id": "kujiale_0126_fix",
+      "style": "casual",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_298",
+      "scene_id": "kujiale_0126_fix",
+      "style": "casual",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_298",
+      "scene_id": "kujiale_0126_fix",
+      "style": "natural",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_298",
+      "scene_id": "kujiale_0126_fix",
+      "style": "natural",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_298",
+      "scene_id": "kujiale_0126_fix",
+      "style": "formal",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_298",
+      "scene_id": "kujiale_0126_fix",
+      "style": "emotional",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_298",
+      "scene_id": "kujiale_0126_fix",
+      "style": "casual",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_298",
+      "scene_id": "kujiale_0126_fix",
+      "style": "formal",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_298",
+      "scene_id": "kujiale_0126_fix",
+      "style": "natural",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_298",
+      "scene_id": "kujiale_0126_fix",
+      "style": "emotional",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_298",
+      "scene_id": "kujiale_0126_fix",
+      "style": "emotional",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_303",
+      "scene_id": "kujiale_0182",
+      "style": "formal",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_303",
+      "scene_id": "kujiale_0182",
+      "style": "formal",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_303",
+      "scene_id": "kujiale_0182",
+      "style": "formal",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_303",
+      "scene_id": "kujiale_0182",
+      "style": "emotional",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_303",
+      "scene_id": "kujiale_0182",
+      "style": "casual",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_303",
+      "scene_id": "kujiale_0182",
+      "style": "emotional",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_303",
+      "scene_id": "kujiale_0182",
+      "style": "casual",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_303",
+      "scene_id": "kujiale_0182",
+      "style": "natural",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_303",
+      "scene_id": "kujiale_0182",
+      "style": "natural",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_303",
+      "scene_id": "kujiale_0182",
+      "style": "casual",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_303",
+      "scene_id": "kujiale_0182",
+      "style": "natural",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_303",
+      "scene_id": "kujiale_0182",
+      "style": "emotional",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_315",
+      "scene_id": "kujiale_0104",
+      "style": "casual",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_315",
+      "scene_id": "kujiale_0104",
+      "style": "natural",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_315",
+      "scene_id": "kujiale_0104",
+      "style": "natural",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_315",
+      "scene_id": "kujiale_0104",
+      "style": "casual",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_315",
+      "scene_id": "kujiale_0104",
+      "style": "formal",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_315",
+      "scene_id": "kujiale_0104",
+      "style": "formal",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_315",
+      "scene_id": "kujiale_0104",
+      "style": "emotional",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_315",
+      "scene_id": "kujiale_0104",
+      "style": "casual",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_315",
+      "scene_id": "kujiale_0104",
+      "style": "emotional",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_315",
+      "scene_id": "kujiale_0104",
+      "style": "natural",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_315",
+      "scene_id": "kujiale_0104",
+      "style": "formal",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_315",
+      "scene_id": "kujiale_0104",
+      "style": "emotional",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_336",
+      "scene_id": "kujiale_0236",
+      "style": "casual",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_336",
+      "scene_id": "kujiale_0236",
+      "style": "casual",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_336",
+      "scene_id": "kujiale_0236",
+      "style": "casual",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_336",
+      "scene_id": "kujiale_0236",
+      "style": "emotional",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_336",
+      "scene_id": "kujiale_0236",
+      "style": "natural",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_336",
+      "scene_id": "kujiale_0236",
+      "style": "formal",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_336",
+      "scene_id": "kujiale_0236",
+      "style": "formal",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_336",
+      "scene_id": "kujiale_0236",
+      "style": "formal",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_336",
+      "scene_id": "kujiale_0236",
+      "style": "natural",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_336",
+      "scene_id": "kujiale_0236",
+      "style": "emotional",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_336",
+      "scene_id": "kujiale_0236",
+      "style": "natural",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_336",
+      "scene_id": "kujiale_0236",
+      "style": "emotional",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_346",
+      "scene_id": "kujiale_0175",
+      "style": "formal",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_346",
+      "scene_id": "kujiale_0175",
+      "style": "natural",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_346",
+      "scene_id": "kujiale_0175",
+      "style": "casual",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_346",
+      "scene_id": "kujiale_0175",
+      "style": "casual",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_346",
+      "scene_id": "kujiale_0175",
+      "style": "emotional",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_346",
+      "scene_id": "kujiale_0175",
+      "style": "emotional",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_346",
+      "scene_id": "kujiale_0175",
+      "style": "formal",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_346",
+      "scene_id": "kujiale_0175",
+      "style": "emotional",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_346",
+      "scene_id": "kujiale_0175",
+      "style": "natural",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_346",
+      "scene_id": "kujiale_0175",
+      "style": "formal",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_346",
+      "scene_id": "kujiale_0175",
+      "style": "natural",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_346",
+      "scene_id": "kujiale_0175",
+      "style": "casual",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_361",
+      "scene_id": "kujiale_0220",
+      "style": "casual",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_361",
+      "scene_id": "kujiale_0220",
+      "style": "casual",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_361",
+      "scene_id": "kujiale_0220",
+      "style": "emotional",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_361",
+      "scene_id": "kujiale_0220",
+      "style": "natural",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_361",
+      "scene_id": "kujiale_0220",
+      "style": "formal",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_361",
+      "scene_id": "kujiale_0220",
+      "style": "formal",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_361",
+      "scene_id": "kujiale_0220",
+      "style": "formal",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_361",
+      "scene_id": "kujiale_0220",
+      "style": "emotional",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_361",
+      "scene_id": "kujiale_0220",
+      "style": "natural",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_361",
+      "scene_id": "kujiale_0220",
+      "style": "casual",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_361",
+      "scene_id": "kujiale_0220",
+      "style": "emotional",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_361",
+      "scene_id": "kujiale_0220",
+      "style": "natural",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_382",
+      "scene_id": "kujiale_0021",
+      "style": "natural",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_382",
+      "scene_id": "kujiale_0021",
+      "style": "formal",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_382",
+      "scene_id": "kujiale_0021",
+      "style": "formal",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_382",
+      "scene_id": "kujiale_0021",
+      "style": "casual",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_382",
+      "scene_id": "kujiale_0021",
+      "style": "casual",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_382",
+      "scene_id": "kujiale_0021",
+      "style": "casual",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_382",
+      "scene_id": "kujiale_0021",
+      "style": "natural",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_382",
+      "scene_id": "kujiale_0021",
+      "style": "emotional",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_382",
+      "scene_id": "kujiale_0021",
+      "style": "formal",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_382",
+      "scene_id": "kujiale_0021",
+      "style": "natural",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_382",
+      "scene_id": "kujiale_0021",
+      "style": "emotional",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_382",
+      "scene_id": "kujiale_0021",
+      "style": "emotional",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_391",
+      "scene_id": "kujiale_0067",
+      "style": "formal",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_391",
+      "scene_id": "kujiale_0067",
+      "style": "formal",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_391",
+      "scene_id": "kujiale_0067",
+      "style": "emotional",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_391",
+      "scene_id": "kujiale_0067",
+      "style": "natural",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_391",
+      "scene_id": "kujiale_0067",
+      "style": "natural",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_391",
+      "scene_id": "kujiale_0067",
+      "style": "casual",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_391",
+      "scene_id": "kujiale_0067",
+      "style": "formal",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_391",
+      "scene_id": "kujiale_0067",
+      "style": "casual",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_391",
+      "scene_id": "kujiale_0067",
+      "style": "emotional",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_391",
+      "scene_id": "kujiale_0067",
+      "style": "natural",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_391",
+      "scene_id": "kujiale_0067",
+      "style": "casual",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_391",
+      "scene_id": "kujiale_0067",
+      "style": "emotional",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_395",
+      "scene_id": "kujiale_0216",
+      "style": "casual",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_395",
+      "scene_id": "kujiale_0216",
+      "style": "formal",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_395",
+      "scene_id": "kujiale_0216",
+      "style": "natural",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_395",
+      "scene_id": "kujiale_0216",
+      "style": "natural",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_395",
+      "scene_id": "kujiale_0216",
+      "style": "natural",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_395",
+      "scene_id": "kujiale_0216",
+      "style": "formal",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_395",
+      "scene_id": "kujiale_0216",
+      "style": "casual",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_395",
+      "scene_id": "kujiale_0216",
+      "style": "casual",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_395",
+      "scene_id": "kujiale_0216",
+      "style": "emotional",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_395",
+      "scene_id": "kujiale_0216",
+      "style": "formal",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_395",
+      "scene_id": "kujiale_0216",
+      "style": "emotional",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_395",
+      "scene_id": "kujiale_0216",
+      "style": "emotional",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_407",
+      "scene_id": "kujiale_0057",
+      "style": "casual",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_407",
+      "scene_id": "kujiale_0057",
+      "style": "emotional",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_407",
+      "scene_id": "kujiale_0057",
+      "style": "casual",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_407",
+      "scene_id": "kujiale_0057",
+      "style": "formal",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_407",
+      "scene_id": "kujiale_0057",
+      "style": "casual",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_407",
+      "scene_id": "kujiale_0057",
+      "style": "natural",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_407",
+      "scene_id": "kujiale_0057",
+      "style": "formal",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_407",
+      "scene_id": "kujiale_0057",
+      "style": "emotional",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_407",
+      "scene_id": "kujiale_0057",
+      "style": "natural",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_407",
+      "scene_id": "kujiale_0057",
+      "style": "formal",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_407",
+      "scene_id": "kujiale_0057",
+      "style": "natural",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_407",
+      "scene_id": "kujiale_0057",
+      "style": "emotional",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_413",
+      "scene_id": "kujiale_0129_fix",
+      "style": "emotional",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_413",
+      "scene_id": "kujiale_0129_fix",
+      "style": "casual",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_413",
+      "scene_id": "kujiale_0129_fix",
+      "style": "casual",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_413",
+      "scene_id": "kujiale_0129_fix",
+      "style": "natural",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_413",
+      "scene_id": "kujiale_0129_fix",
+      "style": "casual",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_413",
+      "scene_id": "kujiale_0129_fix",
+      "style": "formal",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_413",
+      "scene_id": "kujiale_0129_fix",
+      "style": "emotional",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_413",
+      "scene_id": "kujiale_0129_fix",
+      "style": "formal",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_413",
+      "scene_id": "kujiale_0129_fix",
+      "style": "natural",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_413",
+      "scene_id": "kujiale_0129_fix",
+      "style": "formal",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_413",
+      "scene_id": "kujiale_0129_fix",
+      "style": "emotional",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_413",
+      "scene_id": "kujiale_0129_fix",
+      "style": "natural",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_423",
+      "scene_id": "kujiale_0251",
+      "style": "formal",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_423",
+      "scene_id": "kujiale_0251",
+      "style": "natural",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_423",
+      "scene_id": "kujiale_0251",
+      "style": "casual",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_423",
+      "scene_id": "kujiale_0251",
+      "style": "natural",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_423",
+      "scene_id": "kujiale_0251",
+      "style": "casual",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_423",
+      "scene_id": "kujiale_0251",
+      "style": "casual",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_423",
+      "scene_id": "kujiale_0251",
+      "style": "natural",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_423",
+      "scene_id": "kujiale_0251",
+      "style": "formal",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_423",
+      "scene_id": "kujiale_0251",
+      "style": "emotional",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_423",
+      "scene_id": "kujiale_0251",
+      "style": "emotional",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_423",
+      "scene_id": "kujiale_0251",
+      "style": "emotional",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_423",
+      "scene_id": "kujiale_0251",
+      "style": "formal",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_425",
+      "scene_id": "kujiale_0217",
+      "style": "natural",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_425",
+      "scene_id": "kujiale_0217",
+      "style": "natural",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_425",
+      "scene_id": "kujiale_0217",
+      "style": "natural",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_425",
+      "scene_id": "kujiale_0217",
+      "style": "emotional",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_425",
+      "scene_id": "kujiale_0217",
+      "style": "casual",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_425",
+      "scene_id": "kujiale_0217",
+      "style": "formal",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_425",
+      "scene_id": "kujiale_0217",
+      "style": "formal",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_425",
+      "scene_id": "kujiale_0217",
+      "style": "emotional",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_425",
+      "scene_id": "kujiale_0217",
+      "style": "casual",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_425",
+      "scene_id": "kujiale_0217",
+      "style": "casual",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_425",
+      "scene_id": "kujiale_0217",
+      "style": "formal",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_425",
+      "scene_id": "kujiale_0217",
+      "style": "emotional",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_440",
+      "scene_id": "kujiale_0092",
+      "style": "formal",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_440",
+      "scene_id": "kujiale_0092",
+      "style": "emotional",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_440",
+      "scene_id": "kujiale_0092",
+      "style": "natural",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_440",
+      "scene_id": "kujiale_0092",
+      "style": "natural",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_440",
+      "scene_id": "kujiale_0092",
+      "style": "emotional",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_440",
+      "scene_id": "kujiale_0092",
+      "style": "emotional",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_440",
+      "scene_id": "kujiale_0092",
+      "style": "natural",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_440",
+      "scene_id": "kujiale_0092",
+      "style": "casual",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_440",
+      "scene_id": "kujiale_0092",
+      "style": "formal",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_440",
+      "scene_id": "kujiale_0092",
+      "style": "casual",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_440",
+      "scene_id": "kujiale_0092",
+      "style": "formal",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_440",
+      "scene_id": "kujiale_0092",
+      "style": "casual",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_442",
+      "scene_id": "kujiale_0013",
+      "style": "casual",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_442",
+      "scene_id": "kujiale_0013",
+      "style": "natural",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_442",
+      "scene_id": "kujiale_0013",
+      "style": "casual",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_442",
+      "scene_id": "kujiale_0013",
+      "style": "natural",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_442",
+      "scene_id": "kujiale_0013",
+      "style": "natural",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_442",
+      "scene_id": "kujiale_0013",
+      "style": "emotional",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_442",
+      "scene_id": "kujiale_0013",
+      "style": "emotional",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_442",
+      "scene_id": "kujiale_0013",
+      "style": "formal",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_442",
+      "scene_id": "kujiale_0013",
+      "style": "emotional",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_442",
+      "scene_id": "kujiale_0013",
+      "style": "formal",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_442",
+      "scene_id": "kujiale_0013",
+      "style": "casual",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_442",
+      "scene_id": "kujiale_0013",
+      "style": "formal",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_454",
+      "scene_id": "kujiale_0115",
+      "style": "emotional",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_454",
+      "scene_id": "kujiale_0115",
+      "style": "formal",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_454",
+      "scene_id": "kujiale_0115",
+      "style": "formal",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_454",
+      "scene_id": "kujiale_0115",
+      "style": "casual",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_454",
+      "scene_id": "kujiale_0115",
+      "style": "natural",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_454",
+      "scene_id": "kujiale_0115",
+      "style": "formal",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_454",
+      "scene_id": "kujiale_0115",
+      "style": "emotional",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_454",
+      "scene_id": "kujiale_0115",
+      "style": "emotional",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_454",
+      "scene_id": "kujiale_0115",
+      "style": "natural",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_454",
+      "scene_id": "kujiale_0115",
+      "style": "casual",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_454",
+      "scene_id": "kujiale_0115",
+      "style": "casual",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_454",
+      "scene_id": "kujiale_0115",
+      "style": "natural",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_457",
+      "scene_id": "kujiale_0214",
+      "style": "casual",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_457",
+      "scene_id": "kujiale_0214",
+      "style": "natural",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_457",
+      "scene_id": "kujiale_0214",
+      "style": "emotional",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_457",
+      "scene_id": "kujiale_0214",
+      "style": "formal",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_457",
+      "scene_id": "kujiale_0214",
+      "style": "formal",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_457",
+      "scene_id": "kujiale_0214",
+      "style": "casual",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_457",
+      "scene_id": "kujiale_0214",
+      "style": "casual",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_457",
+      "scene_id": "kujiale_0214",
+      "style": "emotional",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_457",
+      "scene_id": "kujiale_0214",
+      "style": "emotional",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_457",
+      "scene_id": "kujiale_0214",
+      "style": "natural",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_457",
+      "scene_id": "kujiale_0214",
+      "style": "natural",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_457",
+      "scene_id": "kujiale_0214",
+      "style": "formal",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_495",
+      "scene_id": "kujiale_0222",
+      "style": "casual",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_495",
+      "scene_id": "kujiale_0222",
+      "style": "natural",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_495",
+      "scene_id": "kujiale_0222",
+      "style": "formal",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_495",
+      "scene_id": "kujiale_0222",
+      "style": "emotional",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_495",
+      "scene_id": "kujiale_0222",
+      "style": "natural",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_495",
+      "scene_id": "kujiale_0222",
+      "style": "casual",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_495",
+      "scene_id": "kujiale_0222",
+      "style": "formal",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_495",
+      "scene_id": "kujiale_0222",
+      "style": "emotional",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_495",
+      "scene_id": "kujiale_0222",
+      "style": "casual",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_495",
+      "scene_id": "kujiale_0222",
+      "style": "natural",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_495",
+      "scene_id": "kujiale_0222",
+      "style": "formal",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_495",
+      "scene_id": "kujiale_0222",
+      "style": "emotional",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_505",
+      "scene_id": "kujiale_0198",
+      "style": "casual",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_505",
+      "scene_id": "kujiale_0198",
+      "style": "emotional",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_505",
+      "scene_id": "kujiale_0198",
+      "style": "emotional",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_505",
+      "scene_id": "kujiale_0198",
+      "style": "formal",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_505",
+      "scene_id": "kujiale_0198",
+      "style": "emotional",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_505",
+      "scene_id": "kujiale_0198",
+      "style": "casual",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_505",
+      "scene_id": "kujiale_0198",
+      "style": "natural",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_505",
+      "scene_id": "kujiale_0198",
+      "style": "formal",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_505",
+      "scene_id": "kujiale_0198",
+      "style": "casual",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_505",
+      "scene_id": "kujiale_0198",
+      "style": "natural",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_505",
+      "scene_id": "kujiale_0198",
+      "style": "formal",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_505",
+      "scene_id": "kujiale_0198",
+      "style": "natural",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_508",
+      "scene_id": "kujiale_0059",
+      "style": "emotional",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_508",
+      "scene_id": "kujiale_0059",
+      "style": "natural",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_508",
+      "scene_id": "kujiale_0059",
+      "style": "formal",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_508",
+      "scene_id": "kujiale_0059",
+      "style": "formal",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_508",
+      "scene_id": "kujiale_0059",
+      "style": "natural",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_508",
+      "scene_id": "kujiale_0059",
+      "style": "casual",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_508",
+      "scene_id": "kujiale_0059",
+      "style": "emotional",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_508",
+      "scene_id": "kujiale_0059",
+      "style": "casual",
+      "repeat": "r3",
+      "seed": 202609243
+    },
+    {
+      "selection_id": "SEL_508",
+      "scene_id": "kujiale_0059",
+      "style": "casual",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_508",
+      "scene_id": "kujiale_0059",
+      "style": "natural",
+      "repeat": "r2",
+      "seed": 202609242
+    },
+    {
+      "selection_id": "SEL_508",
+      "scene_id": "kujiale_0059",
+      "style": "formal",
+      "repeat": "r1",
+      "seed": 202609241
+    },
+    {
+      "selection_id": "SEL_508",
+      "scene_id": "kujiale_0059",
+      "style": "emotional",
+      "repeat": "r3",
+      "seed": 202609243
+    }
+  ],
+  "inference": {
+    "provider": "ppapi",
+    "model": "gemini-3.1-flash-lite-preview",
+    "temperature": 0.0
+  },
+  "planner_cache_policy": "clear_before_and_after_every_episode",
+  "tasks": 40,
+  "expressions": 4,
+  "repetitions": 3,
+  "trajectories": 480,
+  "max_actions": 30,
+  "scoring": "Final-recorded-position SR within 2 m of designated target center.",
+  "public_provenance": "hosted_repeats/20260925/hosted_repeats_20260925/provenance/execution_manifest.json"
+}

@@ -27,6 +27,8 @@ intentionnav/data_collection/   target discovery, rendering, intent generation,
 eval/                           released agents, simulator wrapper, prompts,
                                 metrics, reporting, fixed episode specifications
 scripts/                        collection, download, evaluation, and metric entrypoints
+experiments/shared_category/    frozen reference/MTU3D policies and comparison code
+experiments/hosted_repeats/     frozen hosted policy and fresh-planner repeat code
 splits/                         scene split definitions
 ```
 
@@ -38,6 +40,13 @@ expected to be bit-identical; the released records support exact metric
 recomputation independently of future model calls.
 
 ## Shared-Category System Comparison
+
+The [experiment source](experiments/shared_category/) includes the executed
+[reference policy](experiments/shared_category/code/policies/r055/),
+[MTU3D policy and Isaac Sim adapter](experiments/shared_category/code/policies/mtu3d/),
+[category frontend](experiments/shared_category/code/policies/mtu3d/agents/open_weight_intent.py),
+launchers, scoring, and statistical analysis. See [experiments/README.md](experiments/README.md)
+for source verification, runtime configuration, and numerical reproduction.
 
 The [September comparison release](https://huggingface.co/datasets/Anonymous260726/IntentionNav/tree/main/system_comparison/20260924)
 adds the `reviewed-v3` inputs, 500 cached category predictions, frozen reference
@@ -60,6 +69,10 @@ The last command verifies and recomputes all 2,320 trajectory labels, including
 the full-set GSR values, without a simulator or model API.
 
 ## Repeated Hosted Executions
+
+The [repeat source](experiments/hosted_repeats/) includes the executed hosted
+agent, the wrapper that clears the initial-plan cache at each episode boundary,
+planning-call witness checks, regression tests, and the disagreement analysis.
 
 The [hosted repeat release](https://huggingface.co/datasets/Anonymous260726/IntentionNav/tree/main/hosted_repeats/20260925)
 contains 40 original tasks × four expressions × three full-pipeline executions
